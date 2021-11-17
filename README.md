@@ -6,5 +6,5 @@ download aplikasi termux android diplaystore, lalu buka aplikasinya ketikan peri
  pip2 install requests bs4 futures mechanize
  git clone https://github.com/Fall-Xavier/fmbf
  cd fmbf
- python run.py
+ python2 run.py
 ```
