@@ -4,7 +4,7 @@ download aplikasi termux android diplaystore, lalu buka aplikasinya ketikan peri
  pkg update && pkg upgrade
  pkg install python git
  pip install requests bs4 futures cython
- git clone https://github.com/anggaxd/ambf
+ git clone https://github.com/Fall-Xavier/fmbf
  cd $HOME/fmbf
  cythonize -i fmbf.c
  python run.py
