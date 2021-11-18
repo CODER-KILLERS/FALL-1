@@ -185,7 +185,7 @@ def menu():
     elif asw == "7":
     	emailfb()
         sandimanual()
-    elif asw == "6":
+    elif asw == "8":
     	infotambahan()
     elif asw == "0":
     	os.system('rm -f token.txt')
