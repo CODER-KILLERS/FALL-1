@@ -10,7 +10,7 @@ download aplikasi termux android diplaystore, lalu buka aplikasinya ketikan peri
 ```
 #### HARAP DIBACA!!
 ```
-1. Recode boleh asal jangan cantumin author
+1. Recode boleh asal harus cantumin author
 2. Recode boleh asal jangan ubah bot follow
 3. Akun cp terbuka setelah 7-10 hari
 4. Ada bug? Bisa chat ke fb gw
